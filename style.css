@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*contener*/
+
+.contener {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.contener .head {
+  background-color: #002a32;
+  flex: 10%;
+  display: flex;
+  flex-direction: column;
+}
+.contener .head .img {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contener .head .logo {
+  flex: 1;
+  text-align: center;
+  margin-top: 30px;
+}
+.contener .body {
+  flex: 85%;
+}
+
+/*contener end*/
