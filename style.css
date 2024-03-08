@@ -1,7 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Dosis:wght@700&family=Heebo:wght@100..900&family=MuseoModerno:ital,wght@0,700;1,700&family=Poppins:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+}
+button {
+  width: 140px;
+  height: 43px;
+  border-radius: 3px;
+  border: 1.5px solid black;
+  background-color: transparent;
+  cursor: pointer;
+}
+h2 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 66.75px;
 }
 
 /*contener*/
@@ -52,6 +68,30 @@
 .contener .body .top .right {
   display: flex;
   gap: 35px;
+}
+
+.contener .body .text-and-img {
+  display: grid;
+  grid-template-columns: 4fr 5fr;
+}
+.contener .body .text {
+  padding: 210px 95px;
+}
+.contener .body .text p {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30.5px;
+  letter-spacing: 4.5%;
+  margin-bottom: 9px;
+}
+.contener .body .text button {
+  margin-top: 18px;
+}
+
+.contener .body .ten-ten {
+  text-align: center;
+  margin-bottom: 55.7px;
 }
 
 /*contener end*/
