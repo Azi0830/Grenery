@@ -19,12 +19,16 @@ h2 {
   font-weight: 600;
   line-height: 66.75px;
 }
-
+a {
+  border: none;
+  color: rgb(92, 92, 92);
+}
 /*contener*/
 
 .contener {
-  width: 100%;
+  width: 98%;
   height: 100vh;
+  margin: auto;
   display: flex;
   background-image: url(assets/MANU\ BAR.png);
   background-repeat: no-repeat;
@@ -94,4 +98,31 @@ h2 {
   margin-bottom: 55.7px;
 }
 
+.image {
+  width: 100%;
+  text-align: center;
+}
+.image img {
+  width: 98%;
+}
+
 /*contener end*/
+
+/* products */
+
+.products {
+  width: 80%;
+  margin: auto;
+  height: 958px;
+  text-align: center;
+  padding-top: 93px;
+}
+
+.products .navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: first baseline;
+  margin: 27px 0;
+}
+
+/* products end */
