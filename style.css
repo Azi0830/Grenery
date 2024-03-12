@@ -6,6 +6,9 @@
   box-sizing: border-box;
   font-family: "Dosis", sans-serif;
 }
+body {
+  background-color: #f3f3f3;
+}
 button {
   width: 140px;
   height: 43px;
@@ -123,6 +126,71 @@ a {
   justify-content: space-around;
   align-items: first baseline;
   margin: 27px 0;
+}
+.products .status {
+  width: 100%;
+  height: 316px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.products .status .sofa {
+  flex: 1;
+  background-color: #f1f6f9;
+}
+
+.products .status .sofa .img_logo {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+.products .status .sofa .img_logo img {
+  margin: 70px 0 0 24px;
+}
+
+.products .status .sofa .two {
+  background-color: #264a51;
+  margin-top: 30px;
+  margin-bottom: 7px;
+}
+
+.products .status .sofa .new {
+  background-color: #71b3c6;
+}
+
+.products .status .sofa .size {
+  color: #d4dce2;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.products .status .sofa h5 {
+  width: 85px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #002a32;
+  color: #fff;
+  border-radius: 2px, 0px, 0px, 2px;
+  margin-top: 32px;
+}
+
+.products .status .sofa .shop {
+  display: flex;
+  gap: 16px;
+  padding: 15px 75px;
+}
+.products .status .sofa .shop p {
+  background-color: #71b3c6;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 /* products end */
