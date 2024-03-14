@@ -193,4 +193,35 @@ a {
   cursor: pointer;
 }
 
+.products .price {
+  display: flex;
+  margin: 12px 0 17px 0;
+  justify-content: space-around;
+}
+.products .price .start {
+  flex: 1;
+}
 /* products end */
+
+/*  sale */
+
+.sale {
+  width: 100%;
+  height: 735px;
+  margin-top: 214px;
+  background-image: url(assets/virender-singh-hE0nmTffKtM-unsplash\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sale .off {
+  width: 577px;
+  height: 384px;
+  background-color: red;
+}
+.sale .off .sale_off {
+  line-height: 800;
+  font-size: 90px;
+  text-align: center;
+  color: #f3b705;
+}
+/*  sale end*/
