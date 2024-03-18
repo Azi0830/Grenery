@@ -33,6 +33,26 @@ a {
   width: 475px;
   margin-top: 7px;
   margin-bottom: 20px;
+  width: 75%;
+}
+.glass {
+  /* From https://css.glass */
+  background: rgba(113, 179, 198, 0.55);
+  border-radius: 3px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.7px);
+  -webkit-backdrop-filter: blur(4.7px);
+  border: 1px solid rgba(113, 179, 198, 0.37);
+  width: 129px;
+  height: 149px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: absolute;
+  font-weight: 600;
+  line-height: 35px;
+  font-size: 25px;
 }
 
 /*contener*/
@@ -221,18 +241,33 @@ a {
   background-image: url(assets/virender-singh-hE0nmTffKtM-unsplash\ 1.png);
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 178px;
 }
 .sale .off {
   width: 577px;
   height: 384px;
+  margin-left: 158px;
+  text-align: center;
 }
 .sale .off .sale_off {
-  line-height: 800;
+  font-weight: 800;
   font-size: 90px;
   text-align: center;
   color: #f3b705;
 }
-.sale .off {
+.sale .off h1 {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 80.1px;
+}
+.sale .off .text {
+  width: 65%;
+  margin: auto;
+  margin-top: 17px;
+  text-align: center;
+}
+.sale .off .text button {
+  margin-top: 24px;
 }
 /*  sale end*/
 
@@ -245,25 +280,41 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 120px;
+  position: relative;
 }
-
 .living_room .glass {
-  /* From https://css.glass */
-  background: rgba(113, 179, 198, 0.55);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(4.7px);
-  -webkit-backdrop-filter: blur(4.7px);
-  border: 1px solid rgba(113, 179, 198, 0.37);
-  width: 129px;
-  height: 149px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
+  top: 65%;
+  left: 46%;
 }
 .living_room .text {
-  padding: 170px 41px;
+  padding-top: 180px;
   text-align: center;
 }
+.living_room .text p {
+  margin-left: 60px;
+}
 /*living_room end */
+
+/*bed_room*/
+
+.bed_room {
+  width: 80%;
+  height: 600px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 120px;
+  position: relative;
+}
+.bed_room .glass {
+  top: 35%;
+  left: 47%;
+}
+.bed_room .text {
+  margin-top: 90px;
+  text-align: center;
+}
+.bed_room .text p {
+  margin-left: 60px;
+}
+/*bed_room end */
