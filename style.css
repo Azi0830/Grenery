@@ -295,6 +295,33 @@ a {
 }
 /*living_room end */
 
+/*Dinig*/
+
+.dining {
+  width: 80%;
+  margin: auto;
+  margin-top: 116px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  position: relative;
+}
+
+.dining .text {
+  margin-top: 100px;
+  width: 406px;
+  height: 225px;
+  text-align: center;
+}
+.dining .text p {
+  margin-bottom: 16px;
+  margin-top: 10px;
+}
+.dining .glass {
+  top: 50%;
+  left: 34%;
+}
+/*Dinig end*/
+
 /*bed_room*/
 
 .bed_room {
@@ -318,3 +345,29 @@ a {
   margin-left: 60px;
 }
 /*bed_room end */
+
+/*kitchen*/
+
+.kitchen {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  position: relative;
+}
+
+.kitchen .text {
+  margin-top: 100px;
+  width: 406px;
+  height: 225px;
+  text-align: center;
+}
+.kitchen .text p {
+  margin-bottom: 16px;
+  margin-top: 10px;
+}
+.kitchen .glass {
+  top: 50%;
+  left: 34%;
+}
+/*kitchen　end*/
